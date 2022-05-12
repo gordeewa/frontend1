@@ -4,7 +4,8 @@
 
 body {
     font-family: 'Montserrat', 'Open Sans', sans-serif;
-    background: #ffffff;
+    color: #dad8de;
+    background: #201c2b;
 }
 
 a {
@@ -48,3 +49,4 @@ img {
     border-radius: 4px;
     cursor: pointer;
 }
+
