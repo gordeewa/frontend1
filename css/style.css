@@ -18,10 +18,16 @@ ul {
     list-style: none;
 }
 
-img {
-    max-width: 100%;
-}
+h1 {
+    color: #dad8de;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
 
+}
 /*header*/
 
 .header {
@@ -37,16 +43,201 @@ img {
     padding: 0 12px;
 }
 
-.btn {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #3172b9;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1;
-    border-radius: 4px;
-    cursor: pointer;
+.header-container,
+.header-container-nav-left,
+.header-container-nav-right,
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.nav-item {
+    margin-right: 20px;
+    font-size: .875rem;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.header-logo {
+    display: block;
+    color: #dad8de;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #dad8de;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+}
+
+.nav-link:hover {
+    color: #dad8de;
+    text-decoration: underline;
+    font-weight: 600;
+    display: block;
+}
+
+.header-form {
+    margin: 0 10px;
+}
+.header-form-input {
+    width: 320px;
+    background-image: url('/img/loop.svg');
+    box-shadow: -10px 9px 21px rgb(128 152 213 / 8%);
+    outline: 1px solid #7f1cac;
+    color: #dad8de;
+    background-color: #201c2b;
+    padding: 16px 16px 16px 60px;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 400;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 21px;
+    outline-offset: -2px;
+}
+
+.btn {
+    border-radius: 2px;
+    font-weight: 600;
+    text-align: center;
+    border: 0;
+    line-height: 1;
+    font-size: .875rem;
+    color: #dad8de;
+    padding: 13px;
+    min-width: 130px;
+    display: inline-block;
+    box-shadow: 0 2px 9px 0 rgb(255 255 255 / 8%);
+    letter-spacing: .5px;
+    background-image: linear-gradient(134deg,#944fff 0,#af00ed 100%);
+}
+
+.btn-header {
+    min-width: 100px;
+    padding: 13px;
+    margin-right: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-header-no-decorate {
+    background: transparent;
+    text-decoration: none;
+    padding: 15px 0;
+    border: 0;
+    border-radius: inherit;
+    text-transform: uppercase;
+    color: #dad8de;
+    font-weight: 600;
+    font-size: .875rem;
+}
+
+/*MAIN*/
+
+.course {
+    background: #392e5c;
+}
+
+.course-container {
+    position: relative;
+}
+
+.course-description-list {
+    list-style-type: disc;
+}
+
+.course-title {
+    padding: 30px 0 120px;
+}
+
+.course-title-additional {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.course-link {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    text-align: right;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #dad8de;
+}
+
+.course-link-skillbox {
+    color: #dad8de;
+}
+
+.course-link-skillbox:hover {
+    text-decoration: underline;
+    color: #5d38db;
+}
+
+.course-description-common-section {
+    display: flex;
+    align-content: center;
+    padding: 30px;
+    background: #201c2b;
+    box-shadow: 0 3px 21px rgb(117 117 117 / 20%);
+}
+
+.course-description-left-section {
+    display: block;
+    margin-right: 30px;
+}
+
+.course-description {
+    margin-top: -90px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.course-img {
+    display: block;
+    margin: 0 20px 20px 0;
+}
+
+.course-image {
+    display: block;
+    margin: 0 0 20px 0;
+    width: 268px;
+    height: 160px;
+}
+
+.course-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.course-description-link {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.icon-download {
+    margin: 0 5px 0 0;
+    background: url(/img/downloads.png) center center no-repeat;
+    height: 20px;
+    width: 19px;
+}
+
+.icon-download-text {
+    display: inline-block;
+    padding: 13px 0;
+}
