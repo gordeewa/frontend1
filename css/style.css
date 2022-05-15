@@ -6,6 +6,10 @@ body {
     font-family: 'Montserrat', 'Open Sans', sans-serif;
     color: #dad8de;
     background: #201c2b;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 a {
@@ -240,4 +244,46 @@ h1 {
 .icon-download-text {
     display: inline-block;
     padding: 13px 0;
+}
+
+.course-description-icons-title,
+.course-description-icons-value {
+    display: block;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: 16px;
+    color: #dad8de;
+    text-transform: uppercase;
+}
+
+.course-description-icons-value {
+    font-weight: 400;
+}
+
+.course-description-icons-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.course-description-icons-item {
+    display: inline-block;
+    margin: 0 20px 20px 0;
+}
+
+.course-description-introduction,
+.course-description-list-item {
+    font-weight: 400;
+    font-size: .875rem;
+}
+
+.course-description-introduction:first-child {
+    margin-bottom: 40px;
+}
+
+.course-description-list {
+    margin-left: 40px;
 }
