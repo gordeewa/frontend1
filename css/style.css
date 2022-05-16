@@ -36,7 +36,6 @@ h1 {
 
 .header {
     min-height: 76px;
-    padding: 10px 0;
     background: #201c2b;
     box-shadow: 0 3px 21px rgb(117 117 117 / 8%);
 }
@@ -54,6 +53,23 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+
+.header-container,
+.header-container-nav-left,
+.header-container-nav-right {
+    flex-wrap: wrap;
+}
+
+.header-container-nav-right {
+    justify-content: flex-start;
+}
+
+.header-container-nav-left,
+.header-btns,
+.header-form {
+   margin: 10px 0;
 }
 
 .nav-item {
@@ -87,8 +103,9 @@ h1 {
 }
 
 .header-form {
-    margin: 0 10px;
+    margin-right: 10px;
 }
+
 .header-form-input {
     width: 320px;
     background-image: url('/img/loop.svg');
@@ -149,7 +166,12 @@ h1 {
 }
 
 .course-container {
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .course-description-list {
@@ -166,9 +188,7 @@ h1 {
 }
 
 .course-link {
-    position: absolute;
-    right: 0;
-    top: 30px;
+    padding-top: 30px;
     text-align: right;
     font-size: 1.125rem;
     font-weight: 600;
@@ -217,13 +237,6 @@ h1 {
     height: 160px;
 }
 
-.course-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
 .course-description-link {
     display: flex;
     flex-wrap: nowrap;
@@ -258,6 +271,7 @@ h1 {
 
 .course-description-icons-value {
     font-weight: 400;
+    text-transform: none;
 }
 
 .course-description-icons-list {
@@ -286,4 +300,13 @@ h1 {
 
 .course-description-list {
     margin-left: 40px;
+}
+
+.course-description-items-link {
+    color: #dad8de;
+    text-decoration: underline;
+}
+
+.course-description-items-link:hover {
+    color: #5d38db;
 }
