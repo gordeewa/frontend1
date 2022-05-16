@@ -187,6 +187,22 @@ h1 {
     margin: 10px 0;
 }
 
+.course-rating {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.course-rating-value {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.course-raiting-img {
+    width: 20px;
+}
+
 .course-link {
     padding-top: 30px;
     text-align: right;
@@ -262,6 +278,7 @@ h1 {
 .course-description-icons-title,
 .course-description-icons-value {
     display: block;
+    /*margin-left: 40px;*/
     font-size: .75rem;
     font-weight: 600;
     line-height: 16px;
@@ -274,6 +291,7 @@ h1 {
     text-transform: none;
 }
 
+
 .course-description-icons-list {
     display: flex;
     flex-wrap: wrap;
@@ -284,8 +302,13 @@ h1 {
 }
 
 .course-description-icons-item {
-    display: inline-block;
-    margin: 0 20px 20px 0;
+    display: flex;
+    margin: 0 30px 30px 0;
+    background-repeat: no-repeat;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .course-description-introduction,
@@ -309,4 +332,53 @@ h1 {
 
 .course-description-items-link:hover {
     color: #5d38db;
+}
+
+.course-description-icons-duration {
+    margin: 0 5px 0 0;
+    background: url(/img/icon1-32-32.png) center center no-repeat;
+    height: 32px;
+    width: 32px;
+}
+
+.course-description-icons-source {
+    margin: 0 3px 0 0;
+    background: url(/img/icon2-26-32.png) center center no-repeat;
+    height: 26px;
+    width: 32px;
+}
+
+.course-description-icons-category {
+    margin: 0 5px 0 0;
+    background: url(/img/icon3-30-32.png) center center no-repeat;
+    height: 30px;
+    width: 32px;
+}
+
+.course-description-icons-amount {
+    margin: 0 5px 0 0;
+    background: url(/img/icon4-32-32.png) center center no-repeat;
+    height: 32px;
+    width: 32px;
+}
+
+.course-description-icons-date-add {
+    margin: 0 7px 0 0;
+    background: url(/img/icon5-32-32.png) center center no-repeat;
+    height: 32px;
+    width: 32px;
+}
+
+.course-description-icons-lang {
+    margin: 0 5px 0 0;
+    background: url(/img/icon6-30-32.png) center center no-repeat;
+    height: 30px;
+    width: 32px;
+}
+
+.course-description-icons-date-prod {
+    margin: 0 7px 0 0;
+    background: url(/img/icon7-32-29.png) center center no-repeat;
+    height: 32px;
+    width: 29px;
 }
