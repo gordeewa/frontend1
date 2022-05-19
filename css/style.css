@@ -53,7 +53,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .header-container,
@@ -108,15 +107,15 @@ h1 {
 
 .header-form-input {
     width: 320px;
+    padding: 16px 16px 16px 60px;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 400;
     background-image: url('/img/loop.svg');
     box-shadow: -10px 9px 21px rgb(128 152 213 / 8%);
     outline: 1px solid #7f1cac;
     color: #dad8de;
     background-color: #201c2b;
-    padding: 16px 16px 16px 60px;
-    font-size: 1rem;
-    line-height: 24px;
-    font-weight: 400;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 21px;
@@ -124,6 +123,9 @@ h1 {
 }
 
 .btn {
+    padding: 13px;
+    min-width: 130px;
+    display: inline-block;
     border-radius: 2px;
     font-weight: 600;
     text-align: center;
@@ -131,9 +133,6 @@ h1 {
     line-height: 1;
     font-size: .875rem;
     color: #dad8de;
-    padding: 13px;
-    min-width: 130px;
-    display: inline-block;
     box-shadow: 0 2px 9px 0 rgb(255 255 255 / 8%);
     letter-spacing: .5px;
     background-image: linear-gradient(134deg,#944fff 0,#af00ed 100%);
@@ -148,8 +147,6 @@ h1 {
 }
 
 .btn-header-no-decorate {
-    background: transparent;
-    text-decoration: none;
     padding: 15px 0;
     border: 0;
     border-radius: inherit;
@@ -157,6 +154,8 @@ h1 {
     color: #dad8de;
     font-weight: 600;
     font-size: .875rem;
+    background: transparent;
+    text-decoration: none;
 }
 
 /*MAIN*/
@@ -183,8 +182,8 @@ h1 {
 }
 
 .course-title-additional {
-    font-size: 1.5rem;
     margin: 10px 0;
+    font-size: 1.5rem;
 }
 
 .course-rating {
@@ -211,13 +210,10 @@ h1 {
     line-height: 25px;
     text-transform: uppercase;
     color: #dad8de;
+    text-decoration: underline;
 }
 
-.course-link-skillbox {
-    color: #dad8de;
-}
-
-.course-link-skillbox:hover {
+.course-link:hover {
     text-decoration: underline;
     color: #5d38db;
 }
@@ -265,9 +261,9 @@ h1 {
 
 .icon-download {
     margin: 0 5px 0 0;
-    background: url(/img/downloads.png) center center no-repeat;
     height: 20px;
     width: 19px;
+    background: url(/img/downloads.png) center center no-repeat;
 }
 
 .icon-download-text {
@@ -278,7 +274,6 @@ h1 {
 .course-description-icons-title,
 .course-description-icons-value {
     display: block;
-    /*margin-left: 40px;*/
     font-size: .75rem;
     font-weight: 600;
     line-height: 16px;
@@ -335,50 +330,50 @@ h1 {
 }
 
 .course-description-icons-duration {
-    margin: 0 5px 0 0;
-    background: url(/img/icon1-32-32.png) center center no-repeat;
     height: 32px;
     width: 32px;
+    margin: 0 5px 0 0;
+    background: url(/img/icon1-32-32.png) center center no-repeat;
 }
 
 .course-description-icons-source {
-    margin: 0 3px 0 0;
-    background: url(/img/icon2-26-32.png) center center no-repeat;
     height: 26px;
     width: 32px;
+    margin: 0 3px 0 0;
+    background: url(/img/icon2-26-32.png) center center no-repeat;
 }
 
 .course-description-icons-category {
-    margin: 0 5px 0 0;
-    background: url(/img/icon3-30-32.png) center center no-repeat;
     height: 30px;
     width: 32px;
+    margin: 0 5px 0 0;
+    background: url(/img/icon3-30-32.png) center center no-repeat;
 }
 
 .course-description-icons-amount {
-    margin: 0 5px 0 0;
-    background: url(/img/icon4-32-32.png) center center no-repeat;
     height: 32px;
     width: 32px;
+    margin: 0 5px 0 0;
+    background: url(/img/icon4-32-32.png) center center no-repeat;
 }
 
 .course-description-icons-date-add {
-    margin: 0 7px 0 0;
-    background: url(/img/icon5-32-32.png) center center no-repeat;
     height: 32px;
     width: 32px;
+    margin: 0 7px 0 0;
+    background: url(/img/icon5-32-32.png) center center no-repeat;
 }
 
 .course-description-icons-lang {
-    margin: 0 5px 0 0;
-    background: url(/img/icon6-30-32.png) center center no-repeat;
     height: 30px;
     width: 32px;
+    margin: 0 5px 0 0;
+    background: url(/img/icon6-30-32.png) center center no-repeat;
 }
 
 .course-description-icons-date-prod {
-    margin: 0 7px 0 0;
-    background: url(/img/icon7-32-29.png) center center no-repeat;
     height: 32px;
     width: 29px;
+    margin: 0 7px 0 0;
+    background: url(/img/icon7-32-29.png) center center no-repeat;
 }
