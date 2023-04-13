@@ -62,11 +62,11 @@
         </p>
         <div class="course-rating">
           <div class="course-rating-stars">
-            <img class="course-raiting-img" src="img/stars-gold.png" alt="Рейтинг курса">
-            <img class="course-raiting-img" src="img/stars-gold.png" alt="">
-            <img class="course-raiting-img" src="img/stars-gold.png" alt="">
-            <img class="course-raiting-img" src="img/stars-gold.png" alt="">
-            <img class="course-raiting-img" src="img/stars-middle.png" alt="">
+            <img class="course-raiting-img" src="../stars-gold.png" alt="Рейтинг курса">
+            <img class="course-raiting-img" src="../img/stars-gold.png" alt="">
+            <img class="course-raiting-img" src="../img/stars-gold.png" alt="">
+            <img class="course-raiting-img" src="../img/stars-gold.png" alt="">
+            <img class="course-raiting-img" src="../img/stars-middle.png" alt="">
           </div>
           <span class="course-rating-value">+91/-11</span>
         </div>
@@ -81,7 +81,7 @@
     <div class="container">
       <div class="container course-description-common-section">
           <div class="course-description-left-section">
-              <img src="img/professiya-frontend-razrabotchik.jpg" class="course-image" alt="Профессия Frontend-разработчик" title="Профессия Frontend-разработчик">
+              <img src="../img/professiya-frontend-razrabotchik.jpg" class="course-image" alt="Профессия Frontend-разработчик" title="Профессия Frontend-разработчик">
               <a href="https://coursehunter.net/pricing" title="Download" class="btn download course-description-link">
                 <span class="icon-download"></span>
                 <span class="icon-download-text">Загрузить</span>
